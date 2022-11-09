@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.main-content-section{
+    background-color:white;
+    /* padding:12%; */
+    color:rgb(39, 39, 39);
+}
+
+table{
+    background-color: transparent;
+    padding:1%  0;
+    color:rgb(109, 109, 109);
+    /* border: 2px solid rgb(134, 134, 134); */
+    box-shadow: 2px  3px  4px  4px rgba(0,0,0,.1);
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius:0px;
+}
+.file_upload{
+    padding: 3%  30%  3%  2%;
+
+}
+.med_type{
+    padding: 3%  70.5%  3%  1%;
+
+}
+.need{
+    color:red;
+}
+
+table tr td{
+    padding:2%;
+}
+table tr td input,
+table tr td select
+{
+    padding: 3%  50%  3%  1%;
+    background: #0abde3; 
+    border-radius:3px;
+    border:none;
+    font-size:17px;
+}
+.qty{
+    padding:0;
+}
+.press-btn{
+    padding:3%;
+    margin:0 2%;
+    color:rgb(71, 71, 71);
+}
+.press-btn:hover{
+    font-size:20px;
+}
+
+@media only screen and (max-width:768px){
+    table{
+        width:40%;
+    }
+}
+
+
+
+
+
+
+

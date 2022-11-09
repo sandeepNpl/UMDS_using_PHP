@@ -1,0 +1,45 @@
+.main-content-section{
+    background-color:#feffff;
+    padding:12%;
+    color:rgb(50, 50, 50);
+}
+.main-content-section h4{
+    text-align: center;
+}
+table{
+    background-color: transparent;
+    padding:1%  0;
+    color:white;
+    /* border: 2px solid rgb(134, 134, 134); */
+    box-shadow: 2px  3px  4px  4px rgba(0,0,0,.1);
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius:0px;
+}
+table tr td{
+    padding:2%;
+}
+table tr td input,
+table tr td select
+{
+    padding: 3%  50%  3%  1%;
+    background: #90e9fd;
+    border-radius:3px;
+    border:none;
+    font-size:17px;
+}
+.press-btn{
+    padding:3%;
+    margin:0 2%;
+    color:rgb(71, 71, 71);
+}
+.press-btn:hover{
+    font-size:20px;
+}
+
+@media only screen and (max-width:768px){
+    table{
+        width:40%;
+    }
+}

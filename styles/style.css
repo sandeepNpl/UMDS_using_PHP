@@ -1,0 +1,272 @@
+
+/* CSS for All */
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width:80%;
+    margin: 0 auto;
+    padding:1%;
+}
+
+.img-responsive{
+    width:100%;
+}
+.img-curve{
+    border-radius:12px;
+}
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+
+.clear-fix{
+    clear:both;
+    float:none;
+}
+
+h2{
+    color:#2f3542;
+    font-size: 2rem;
+}
+h3{
+    font-size:1.5rem;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+.btn{
+    padding:1%;
+    border:none;
+    font-size:1rem;
+    border-radius:5px;
+}
+.btn-primary{
+    background-color:#ff6b81;
+    color:white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color:white;
+    background-color:#ff4757; 
+}
+
+.float-container{
+    position:relative;
+}
+.float-text{
+    position:absolute;
+    bottom:50px;
+    left:40%;
+}
+.text-white{
+    color:white;
+}
+.ratings{
+    position:absolute;
+    bottom:12px;
+    left:4px;
+    padding:1%;
+    background-color: white;
+    color:#ff4757;
+    border-radius:8px;
+}
+
+.space{
+    padding:1%;
+}
+.error{
+    color:#ff6b81;
+}
+.success{
+    color:aquamarine;
+}
+.contact{
+    color:white;
+}
+
+/* CSS for NavBar section */
+.nav-bar{
+    background-color: rgb(255, 251, 251);
+    position: fixed; 
+    width: 100%; /* Full width */
+}
+.logo{
+    /* border: 1px solid black; */
+    float:left;
+    margin-left:-55px;
+} 
+.logo-img{
+    float:left;
+}
+.menu{
+    /* border:1px solid black; */
+    line-height:75px;
+    margin:0;
+
+}
+.menu ul{
+    list-style:none;
+}
+
+.menu ul li{
+    display:inline;
+    padding:1.25%;
+    margin-right:3%;
+}
+.menu ul li a{
+    position:relative;
+    font-family: 'Roboto',sans-serif;
+    color:#00C3F3;
+    font-size:19px;
+}
+.menu ul li a:after{
+    content:'';
+    position:absolute;
+    width:0;
+    height:2px;
+    background-color:#00C3F3;
+    left:0;
+    bottom:-2px;
+    transition:0.3s;
+}
+.menu ul li a:hover:after{
+    width:100%;
+}
+
+
+/* CSS for food-search section */
+.medicine-search input[type="search"]{
+    width:70%;
+    margin-top:1% 2%;
+    padding: 1%;
+    background-color: #00C3F3;
+    font-size: 1rem;
+    border:none;
+    border-radius:50px;
+} 
+
+/* CSS for  Menu */
+.medicine-menu{
+    background-color:#ececec;
+    padding:4%;
+    /* margin-top:100px; */
+}
+.medicine-menu-box{
+    border:1px solid black;
+    width:43%;
+    margin:1%;
+    float:left;
+    padding:2%;
+    background-color:#ffff;
+    border-radius:8px;
+}
+.medicine-menu-img{
+    width:20%;
+    float:left;
+}
+.medicine-menu-disc{
+    width:70%;
+    float:left;
+    margin-left:8%;
+}
+.medicine-detail{
+    font-size:1rem;
+    color:#2c2c2c;
+}
+
+/* CSS for Slogan Section */
+.slogan-content{
+    margin-top:135px;
+    display:flex;
+    justify-content: space-around;
+}
+.slogan{
+    font-size:33px;
+    margin-left:20px;
+    margin-bottom:200px;
+    margin-top:10px;
+    color:#3D4554;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    background-color:#00C3F3;
+    padding:1% 8%;
+    box-shadow:2px 2px rgba(3, 3, 3, 0.322);
+    border-radius:10px;
+}
+
+.slogan-image{
+    margin-right:120px;
+}
+.donate-btn{
+    padding:3%;
+    margin:10% 0;
+    background-color: white;
+    border:transparent;
+    border-radius:8px;
+}
+.donate-btn a{
+    color:#00c3f3;
+    font-size:16px;
+    font-weight:700;
+}
+
+/* CSS for Contact Us */
+.contact{
+    background-color:rgb(74, 74, 74);
+    color:rgb(251, 250, 250);
+    padding:1%;
+}
+.styles{
+    font-size:20px;
+    color:white
+}
+
+/* CSS for footer */
+
+.footer{
+    background-color: rgb(74, 74, 74);
+    /* border:1px solid black; */
+    color:white;
+    padding: 1% 0;
+}
+/* CSS for Responsive */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width:80%;
+        float:none;
+        margin: 0 auto;
+    }
+    .menu ul{
+        text-align:center;
+    }
+
+    .food-search input[type="search"]{
+        width:90%;
+        margin-bottom:5%;
+        padding:5%;
+    }
+    .btn{
+        width:40%;
+        padding:1%;
+        margin : 2.5% 0;
+    }
+    .box-3{
+        width:90%;
+        margin-left:5%;
+    }
+    .medicine-menu-box{
+        width:90%;
+        margin:3%;
+    }
+       
+}
