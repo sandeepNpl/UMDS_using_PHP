@@ -111,11 +111,6 @@
 </body>
 </html>
 
-
-
-
-
-
 <?php   
 //check whetjer the submit button is clicked or not 
 //if (isset($_POST['username']) || isset($_POST['email']) || isset($_POST['password']) || isset($_POST['confirmpassword'])) {

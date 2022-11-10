@@ -60,7 +60,7 @@
                             <td><?php  echo $type; ?></td>
                             <td>
                             <a href="<?php echo SITEURL ?>/admin/delete-donate.php?id=<?php echo $id;?>" class="btn-secondary">Delete</a>
-                    </td>
+                            </td>
                         </tr>
                         
                         <?php

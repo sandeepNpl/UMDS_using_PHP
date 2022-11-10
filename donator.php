@@ -24,7 +24,6 @@ if(!isset($_SESSION['user_name'])){
       <h1>Welocome <span class="user_acc"><?php  echo $_SESSION ['user_name'] ; ?></span></h1>
       <p>Help to save a life: Donate Medicine</p>
       <a href="donation-form.php" class="btn">Donate</a>
-      <a href="donation-list.php" class="btn">My Donation List</a>
       <a href="donation-logout.php " class="btn">logout</a>
      </div>
 

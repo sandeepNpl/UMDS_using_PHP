@@ -197,10 +197,11 @@ a{
     color:#3D4554;
     font-weight: 700;
     font-family: 'Noto Serif', serif;
-    background-color:#00C3F3;
+    background-color:rgba(0, 195, 243,0.7);
     padding:1% 8%;
     box-shadow:2px 2px rgba(3, 3, 3, 0.322);
-    border-radius:10px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 
 .slogan-image{
@@ -232,11 +233,20 @@ a{
 
 /* CSS for footer */
 
-.footer{
-    background-color: rgb(74, 74, 74);
-    /* border:1px solid black; */
-    color:white;
-    padding: 1% 0;
+
+
+.social ul{
+    list-style-type:none;
+}
+.social ul li{
+    display:inline;
+    padding:1%;
+}
+.information p{
+    padding:1%;
+}
+.link ul{
+    list-style-type: none;
 }
 /* CSS for Responsive */
 

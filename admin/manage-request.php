@@ -54,6 +54,9 @@
                             <td><?php  echo $brand_name;  ?></td>
                             <td><?php echo $generic_name;?></td>
                             <td><?php  echo $type?></td>
+                            <td>
+                                <a href="<?php echo SITEURL ?>/admin/delete-request.php?id=<?php echo $id;?>" class="btn-secondary">Delete</a>
+                            </td>
                         </tr>
                         
             <?php
@@ -84,6 +87,7 @@
                     <th>Generic Name</th>
                     <th>Expiry Date</th>
                     <th>Actions</th>
+                    
             </tr>
 
             <!-- Code for vailable medicine -->
@@ -97,11 +101,11 @@
               // Check whether the query is execute of not.
                 if($res1 == TRUE){
                     //Query is executes
-                    $sn = 1;
+                    $sn1 = 1;
                     $count1 = mysqli_num_rows($res1);
                     if($count1>0){
                         while($row=mysqli_fetch_assoc($res1)){
-                            $id = $row['id'];
+                            $id1 = $row['id1'];
                             $full_name =$row['full_name']; 
                             $email_id = $row['email_id'];
                             $address = $row['address'];
@@ -111,7 +115,7 @@
                             $ex_date = $row['ex_date'];
                         ?>
                         <tr>
-                            <td><?php echo $sn++;  ?></td>
+                            <td><?php echo $sn1++;  ?></td>
                             <td><?php echo $full_name; ?></td>
                             <td><?php echo $email_id;  ?></td>
                             <td><?php  echo $address;  ?></td>
@@ -119,8 +123,12 @@
                             <td><?php  echo $brand_name;  ?></td>
                             <td><?php echo $generic_name;?></td>
                             <td><?php  echo $ex_date?></td>
-                        </tr>
-                        
+                            <td>
+                                <a href="<?php echo SITEURL ?>/admin/delete-request-available.php?id=<?php echo $id1;?>" class="btn-secondary">Delete</a>
+                            </td>
+                        </tr>    
+
+
                         <?php
                         }
                     }

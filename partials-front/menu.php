@@ -49,7 +49,7 @@
               <a href="<?php SITEURL?>request.php">Request</a>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <a href="faq1.php">FAQ</a>
             </li>
             <li>
               <a href="donation-register.php">Login/SignUp</a>

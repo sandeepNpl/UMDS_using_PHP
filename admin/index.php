@@ -5,27 +5,56 @@
     <div class="wrapper">
            <h2>DASHBOARD</h2>
            <div class="col-4 text-center">
-            <h1>5</h1>
+
+           <?php  
+           $sql = "SELECT * FROM tbl_admin";
+            //Execute Query
+             $res = mysqli_query($conn,$sql);
+            $count = mysqli_num_rows($res);
+           ?>
+
+
+            <h1><?php echo $count; ?></h1>
             <br>
-            Medicine1
+            Total Admin
            </div>
 
            <div class="col-4 text-center">
-            <h1>5</h1>
+           <?php  
+           $sql = "SELECT * FROM tbl_medicine";
+            //Execute Query
+             $res = mysqli_query($conn,$sql);
+            $count = mysqli_num_rows($res);
+           ?>
+
+            <h1><?php echo $count; ?></h1>
             <br>
-            Medicine2
+           Total Available Medicine
            </div>
 
            <div class="col-4 text-center">
-            <h1>5</h1>
+           <?php  
+           $sql = "SELECT * FROM tbl_request";
+            //Execute Query
+             $res = mysqli_query($conn,$sql);
+            $count = mysqli_num_rows($res);
+           ?>
+            <h1><?php echo $count; ?></h1>
             <br>
-            Medicine3
+            Total Request
            </div>
 
            <div class="col-4 text-center">
-            <h1>5</h1>
+
+           <?php  
+           $sql = "SELECT * FROM tbl_donation";
+            //Execute Query
+             $res = mysqli_query($conn,$sql);
+            $count = mysqli_num_rows($res);
+           ?>
+            <h1><?php echo $count; ?></h1>
             <br>
-            Medicine4
+            Total  Donation
            </div>
            <div class="clear-fix"></div>
         </div> 

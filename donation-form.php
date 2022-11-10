@@ -41,12 +41,9 @@
         <td><input type="number"  name="qty" placeholder="Quantity" ><span class="need">*</span></td>
       </tr>
       <tr>
-      <td><input type = 'text' name ="ex_date" placeholder="Expiry Date"><span class="need">*</span></td>
+      <td><input type = 'text' name ="ex_date" placeholder="Expiry Date(yy/mm/dd)"><span class="need">*</span></td>
       </tr>
       <tr>
-      <td>
-      <input type = 'file' name ="image" class="file_upload">
-      </td>
       </tr>
       <tr>
             <td>
